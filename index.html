@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+    <!-- <script src="/tailwind.config.js"></script> -->
     <link rel="stylesheet" href="/Assets/css/index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/tailwind.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -61,7 +63,31 @@
             </div>
         </section>
 
-        <section>
+        <section class="rounded-md bg-gray-200 flex h-[510px]">
+            <div class="py-[100px] pl-10">
+                <p class="text-sm pb-3">
+                    Order Restaurant food, takeaway and groceries.
+                </p>
+                <h1 class="font-bold text-4xl leading-9">
+                    Feast Your Senses,<br class="fastAndFresh">Fast and Fresh
+                </h1>
+                <p class="text-sm pt-8">
+                    Enter a postcode to see what we deliver
+                </p>
+                <form class="mt-4">
+                    <div class="relative inline-block">
+                      <input type="text" class="pl-4 pr-12 py-2 border-2 border-gray-300 rounded-3xl w-full text-lg" placeholder="e.g Pizza">
+                      <button type="submit" class="absolute top-1/2 right-0 transform -translate-y-1/2 py-2 px-4 bg-green-500 text-white border-2 border-gray-300 hover:bg-green-600 rounded-3xl h-full">
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+            </div>
+           
+              <div>
+                <img src="/Assets/images/woman eating Pizza.svg" alt="" class="object-cover h-full">
+              </div>
+
         </section>
     </section>
 </body>

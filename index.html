@@ -12,8 +12,23 @@
 </head>
 
 <body>
-    <section class="main mx-[100px]">
-        <header class="bg-gray-200 h-[50px] grid grid-cols-3 text-[13px] rounded-l-lg">
+    <section class="main mx-0 md:mx-[100px]">
+        <header class="mobile md:hidden">
+            <section class="grid grid-cols-2">
+                <div class="place-content-center text-center bg-gray-300 h-20">
+                    <h1 class="font-semibold text-[15px] text-yellow-500">Aycan</h1>
+                    <a href="" class="text-[20px] underline">My Account</a>
+                </div>
+                <div class="bg-green-600 place-content-center text-center">
+                    <h1 class="font-semibold text-2xl">GPB 79.85</h1>
+                </div>
+            </section>
+        </header>
+        <div class="flex justify-end py-3 px-10 md:hidden">
+            <div></div>
+            <p>Lution Street, N4G-00....</p>
+        </div>
+        <header class="bg-gray-200 h-[50px] md:grid grid-cols-3 text-[13px] rounded-l-lg hidden ">
             <div class="flex justify-start place-items-center pl-10">
                 <img src="/Assets/icons/star.png" alt="" class="object-cover h-4" />
                 <p class="orderOne font-semibold">
@@ -47,7 +62,7 @@
             </div>
         </header>
 
-        <section class="menu py-8 flex justify-between">
+        <section class="menu py-8 md:flex justify-between hidden">
             <div>
                 <img src="/Assets/images/order logo.svg" alt="" />
             </div>
@@ -62,9 +77,9 @@
             </div>
         </section>
 
-        <section class="rounded-md bg-gray-200 flex h-[510px]">
-            <div class="py-[100px] pl-20">
-                <p class="text-sm pb-3">
+        <section class="rounded-2xl bg-gray-200 flex md:h-[510px] mx-5 place-items-center place-content-center">
+            <div class="py-[50px] md:py-[100px] px-6 md:pl-20">
+                <p class="text-sm pb-3 font-light">
                     Order Restaurant food, takeaway and groceries.
                 </p>
                 <h1 class="font-bold text-4xl leading-9">
@@ -83,7 +98,7 @@
                 </form>
             </div>
 
-            <div class="relative">
+            <div class="relative hidden md:flex">
                 <img src="/Assets/images/Group 112.png" alt="" class="object-cover h-full" />
             </div>
         </section>
@@ -344,17 +359,17 @@
                 </div>
             </div>
         </div>
-        <section class="bg-blue-950 grid grid-cols-2 px-20 p-5">
+        <section class="bg-blue-950 grid grid-cols-2 md:px-20 px-10 p-5">
             <div>
                 <p class="text-white">
                     Order.uk Copyright 2024, All Rights Reserved.
                 </p>
             </div>
-            <div class="text-white flex justify-between gap-2">
-                <a href="">Privacy Policy</a>
-                <a href="">Terms</a>
-                <a href="">Pricing</a>
-                <p>Do not sell or share my personal information</p>
+            <div class="text-white grid grid-cols-4 text-sm lg:text-lg">
+                <a href="" class="text-center">Privacy Policy</a>
+                <a href="" class="text-center">Terms</a>
+                <a href="" class="text-center">Pricing</a>
+                <p class="text-center">Do not sell or share my personal information</p>
             </div>
 
         </section>

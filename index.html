@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="font-serif">
     <section class="main mx-0 md:mx-[100px]">
         <header class="mobile md:hidden">
             <section class="grid grid-cols-2">
@@ -28,22 +28,22 @@
             <div></div>
             <p>Lution Street, N4G-00....</p>
         </div>
-        <header class="bg-gray-200 h-[50px] md:grid grid-cols-3 text-[13px] rounded-l-lg hidden ">
+        <header class="bg-gray-200 h-[50px] md:grid lg:grid md:grid-cols-2 lg:grid-cols-3 rounded-l-lg hidden md:mx-5 ">
             <div class="flex justify-start place-items-center pl-10">
                 <img src="/Assets/icons/star.png" alt="" class="object-cover h-4" />
-                <p class="orderOne font-semibold">
+                <p class="orderOne font-semibold text-[10px]">
                     Get 5% Off your first order,
                     <span class="font-bold">Promo: ORDER5</span>
                 </p>
             </div>
             <div class="flex justify-start place-items-center">
                 <img src="/Assets/icons/location.svg" alt="" />
-                <div class="regent flex justify-start gap-4">
+                <div class="regent flex md:justify-between justify-start md:gap-6 gap-4 text-[10px]">
                     <p class="font-semibold">Regent Street, A4, A4201, London</p>
-                    <a href="#" class="underline">change location</a>
+                    <a href="#" class="underline text-[10px]">change location</a>
                 </div>
             </div>
-            <div class="grid grid-cols-4">
+            <div class="lg:grid lg:grid-cols-4 md:hidden">
                 <div class="bg-green-500 h-[50px] place-items-center py-2 border-white border-2-r rounded-l-lg">
                     <img src="/Assets/icons/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""
                         class="h-7" />
@@ -62,31 +62,31 @@
             </div>
         </header>
 
-        <section class="menu py-8 md:flex justify-between hidden">
+        <section class="menu md:py-5 lg:py-8 md:flex justify-between hidden md:mx-5 md:gap-5">
             <div>
                 <img src="/Assets/images/order logo.svg" alt="" />
             </div>
-            <div class="flex gap-[30px] font-semibold">
-                <a href="" class="home text-white text-center place-content-center px-5 rounded-3xl">Home</a>
+            <div class="flex lg:gap-[30px] md:gap-2 md:text-[8px] lg:text-[15px] font-semibold">
+                <a href="" class="home text-white text-center place-content-center text md:px-2 lg:px-5 md:rounded-sm lg:rounded-3xl md:py-2">Home</a>
                 <a href="" class="text-center place-content-center">Browse Menu</a>
                 <a href="" class="text-center place-content-center">Special Offers</a>
                 <a href="" class="text-center place-content-center">Restaurants</a>
                 <a href="" class="text-center place-content-center">Track Order</a>
                 <a href=""
-                    class="bg-black text-white px-10 text-center place-content-center rounded-3xl">Login/Signup</a>
+                    class="bg-black text-white md:px-[7px] lg:px-10 text-center place-content-center rounded-3xl">Login/Signup</a>
             </div>
         </section>
 
-        <section class="rounded-2xl bg-gray-200 flex md:h-[510px] mx-5 place-items-center place-content-center">
-            <div class="py-[50px] md:py-[100px] px-6 md:pl-20">
-                <p class="text-sm pb-3 font-light">
+        <section class="rounded-2xl bg-gray-200 lg:flex lg:h-[510px] mx-5">
+            <div class="py-[50px] lg:py-[100px] px-6 lg:pl-20">
+                <p class="text-sm md:text-lg pb-3 md:pb-5 font-light text-center lg:text-start">
                     Order Restaurant food, takeaway and groceries.
                 </p>
-                <h1 class="font-bold text-4xl leading-9">
-                    Feast Your Senses,<br class="fastAndFresh" />Fast and Fresh
+                <h1 class="font-bold text-4xl leading-9 text-center lg:text-start">
+                    Feast Your Senses, <span class="text-yellow-400"><br>Fast and Fresh</span>
                 </h1>
-                <p class="text-sm pt-8">Enter a postcode to see what we deliver</p>
-                <form class="mt-4">
+                <p class="text-sm pt-8 md:pt-10 md:text-lg text-center lg:text-start">Enter a postcode to see what we deliver</p>
+                <form class="mt-4 md:mt-6 flex justify-center lg:justify-start">
                     <div class="relative inline-block">
                         <input type="text" class="pl-4 pr-12 py-2 border-2 border-gray-300 rounded-3xl w-full text-lg"
                             placeholder="e.g EC476TH" />
@@ -98,33 +98,33 @@
                 </form>
             </div>
 
-            <div class="relative hidden md:flex">
+            <div class="relative hidden lg:flex">
                 <img src="/Assets/images/Group 112.png" alt="" class="object-cover h-full" />
             </div>
         </section>
-        <section class="my-10 grid grid-cols-2 pl-2">
-            <h2 class="font-semibold text-2xl">
-                Up to -40% 🎊 Order.uk exclusive deals
+        <section class="my-4 md:flex md:gap-20 md:my-10 grid grid-cols-2 pl-2 mx-5">
+            <h2 class="font-semibold lg:text-2xl md:text-sm text-sm flex justify-start gap-1 place-items-center">
+                Up to -40% 🎊 Order.uk <span class="hidden md:flex">exclusive deals</span> 
             </h2>
             <div class="flex justify-end">
                 <a href=""
-                    class="text-xl hover:text-yellow-600 hover:border border-yellow-600 hover:rounded-3xl py-3 px-6">vegan</a>
+                    class="text-xl hover:text-yellow-600 font-light md:font-medium hover:border border-yellow-600 hover:rounded-3xl py-3 text-center px-6 hidden lg:flex">vegan</a>
                 <a href=""
-                    class="text-xl hover:text-yellow-600 hover:border border-yellow-600 hover:rounded-3xl py-3 px-6">sushi</a>
+                    class="text-xl hover:text-yellow-600 font-light md:font-medium hover:border border-yellow-600 hover:rounded-3xl py-3 text-center px-6 hidden lg:flex">sushi</a>
                 <a href=""
-                    class="text-xl hover:text-yellow-600 hover:border border-yellow-600 hover:rounded-3xl py-3 px-6">pizza
+                    class="text-sm lg:text-xl hover:text-yellow-600 font-light md:font-medium hover:border border-yellow-600 hover:rounded-3xl py-3 text-center px-6">pizza
                     & fast food</a>
                 <a href=""
-                    class="text-xl hover:text-yellow-600 hover:border border-yellow-600 hover:rounded-3xl py-3 px-6">others</a>
+                    class="text-xl hover:text-yellow-600 font-light md:font-medium hover:border border-yellow-600 hover:rounded-3xl py-3 text-center px-6 hidden lg:flex">others</a>
             </div>
         </section>
-        <section class="flex overflow-x-scroll gap-4">
-            <img src="/Assets/images/Burger.png" alt="" />
-            <img src="/Assets/images/cafe.png" alt="" />
-            <img src="/Assets/images/Burger.png" alt="" />
-            <img src="/Assets/images/cafe.png" alt="" />
-            <img src="/Assets/images/Burger.png" alt="" />
-            <img src="/Assets/images/cafe.png" alt="" />
+        <section class="flex overflow-x-scroll gap-2 md:gap-4 mx-5">
+            <img src="/Assets/images/Burger.png" alt="" class="w-[30%] rounded-xl"/>
+            <img src="/Assets/images/cafe.png" alt="" class="w-[30%] rounded-xl"/>
+            <img src="/Assets/images/Burger.png" alt="" class="w-[30%] rounded-xl"/>
+            <img src="/Assets/images/cafe.png" alt="" class="w-[30%] rounded-xl"/>
+            <img src="/Assets/images/Burger.png" alt="" class="w-[30%] rounded-xl"/>
+            <img src="/Assets/images/cafe.png" alt="" class="w-[30%] rounded-xl"/>
         </section>
         <div class="my-10 grid grid-cols-2 pl-2">
             <h2 class="font-semibold text-2xl">Order.uk Popular Categories 🤩</h2>

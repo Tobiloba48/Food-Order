@@ -1,11 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Digital PaGE</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="font-serif">
+    <section class="main mx-0 md:mx-[100px]">
+      <header class="mobile md:hidden">
+        <section class="grid grid-cols-2">
+          <div class="place-content-center text-center bg-gray-300 h-20">
+            <h1 class="font-semibold text-[15px] text-yellow-500">Aycan</h1>
+            <a href="" class="text-[20px] underline">My Account</a>
+          </div>
+          <div class="bg-green-600 place-content-center text-center">
+            <h1 class="font-semibold text-2xl">GPB 79.85</h1>
+          </div>
+        </section>
+      </header>
+      <div class="flex justify-end py-3 px-10 md:hidden">
+        <div></div>
+        <p>Lution Street, N4G-00....</p>
+      </div>
+      <header
+        class="bg-gray-200 h-[50px] md:grid lg:grid md:grid-cols-2 lg:grid-cols-3 rounded-l-lg hidden md:mx-5"
+      >
+        <div class="flex justify-start place-items-center pl-10">
+          <img src="/Assets/icons/star.png" alt="" class="object-cover h-4" />
+          <p class="orderOne font-semibold text-[10px]">
+            Get 5% Off your first order,
+            <span class="font-bold">Promo: ORDER5</span>
+          </p>
+        </div>
+        <div class="flex justify-start place-items-center">
+          <img src="/Assets/icons/location.svg" alt="" />
+          <div
+            class="regent flex md:justify-between justify-start md:gap-6 gap-4 text-[10px]"
+          >
+            <p class="font-semibold">Regent Street, A4, A4201, London</p>
+            <a href="#" class="underline text-[10px]">change location</a>
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-cols-4 md:hidden">
+          <div
+            class="bg-green-500 h-[50px] place-items-center py-2 border-white border-2-r rounded-l-lg"
+          >
+            <img
+              src="/Assets/icons/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+              class="h-7"
+            />
+          </div>
+          <div
+            class="bg-green-500 h-[50px] text-center place-content-center border border-r-2 text-white font-bold"
+          >
+            <p>23 Items</p>
+          </div>
+          <div
+            class="bg-green-500 h-[50px] text-center place-content-center border border-r-2 text-white font-bold"
+          >
+            <p>GPB 62.34</p>
+          </div>
+          <div
+            class="bg-green-500 h-[50px] place-items-center py-2 border-white border-2-r rounded-r-lg"
+          >
+            <img
+              src="/Assets/icons/download_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+              class="h-7"
+            />
+          </div>
+        </div>
+      </header>
+
+      <section
+        class="menu md:py-5 lg:py-8 md:flex justify-between hidden md:mx-5 md:gap-5"
+      >
+        <div>
+          <img src="/Assets/images/order logo.svg" alt="" />
+        </div>
+        <div
+          class="flex lg:gap-[30px] md:gap-2 md:text-[8px] lg:text-[15px] font-semibold"
+        >
+          <a
+            href=""
+            class="home text-white text-center place-content-center text md:px-2 lg:px-5 rounded-3xl lg:rounded-3xl md:py-2"
+            >Home</a
+          >
+          <a href="" class="text-center place-content-center">Browse Menu</a>
+          <a href="" class="text-center place-content-center">Special Offers</a>
+          <a href="" class="text-center place-content-center">Restaurants</a>
+          <a href="" class="text-center place-content-center">Track Order</a>
+          <a
+            href=""
+            class="bg-black text-white md:px-[7px] lg:px-10 text-center place-content-center rounded-3xl"
+            >Login/Signup</a
+          >
+        </div>
+      </section>
+
+      <section class="">
+        <div class="bg-gray-100 lg:hidden flex">
+          <div class="">
+            <img src="/Assets/images/girl yellow bg.jpg" alt="">
+            <div class="bg-white rounded-lg w-[20%]">
+              <p class="text-2xl">
+                3.4
+              </p>
+              <div class="flex justify-center">
+                <img src="/Assets/icons/star_16dp_434343_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="w-2 h-2">
+                <img src="/Assets/icons/star_16dp_434343_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="w-2 h-2">
+                <img src="/Assets/icons/star_16dp_434343_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="w-2 h-2">
+                <img src="/Assets/icons/star_16dp_434343_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="w-2 h-2">
+                <img src="/Assets/icons/star_16dp_434343_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="w-2 h-2">
+      
+
+              </div>
+              <p class="text-[7px] font-thin">1,367 Reviews</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:relative lg:flex hidden">
+          <img src="/Assets/images/East London group.png" alt="" />
+          <div
+            class="lg:absolute lg:bg-yellow-400 lg:flex lg:justify-between lg:py-3 lg:px-10 lg:gap-4 lg:rounded-r-lg lg:left-0 lg:-bottom-4"
+          >
+            <img
+              src="/Assets/icons/timer_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+            />
+            <p class="text-lg text-white font-bold">Open until 3:00 AM</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="lg:grid lg:grid-cols-2 lg:py-10 py-4 px-4 lg:px-20">
+          <p class="text-xl font-bold hidden lg:flex">
+            All Offers from McDonald’s East London
+          </p>
+          <div class="lg:flex lg:justify-end">
+            <input
+              type="search"
+              placeholder="search from menu...."
+              class="border-2 px-3 py-1 rounded-2xl text-sm w-full lg:w-[50%]"
+            />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- <div class="border border-black w-25% p-3 mt-5 bg-yellow-300 flex justify-center place-items-center">
+      <img src="/Assets/icons/timer_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+      <p>hello world!</p>
+    </div> -->
+  </body>
 </html>
